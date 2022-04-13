@@ -43,7 +43,7 @@ export const VehicalSelect = () => {
       return (
         <div>
             
-            <p style={(localStorage.getItem("vehical") === "2-wheeler") ? stylePara : {cursor: "pointer"}} onClick={() => handelClick("2-wheeler")}>2 Wheeler</p>
+            <p style={(localStorage.getItem("vehical") === "2 Wheeler") ? stylePara : {cursor: "pointer"}} onClick={() => handelClick("2 Wheeler")}>2 Wheeler</p>
             <p style={(localStorage.getItem("vehical") === "Hatchbacks") ? stylePara : {cursor: "pointer"}} onClick={() => handelClick("Hatchbacks")}>Hatchbacks</p>
             <p style={(localStorage.getItem("vehical") === "SUV") ? stylePara : {cursor: "pointer"}} onClick={() => handelClick("SUV")}>SUV</p>
             
