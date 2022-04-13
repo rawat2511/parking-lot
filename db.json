@@ -1,0 +1,140 @@
+{
+  "parkings": [
+      {
+          "id": 1,
+          "name": "Parking Lot - I"
+      },
+      {
+          "id": 2,
+          "name": "Parking Lot - II"
+      },
+      {
+          "id": 3,
+          "name": "Parking Lot - III"
+      },
+      {
+          "id": 4,
+          "name": "Parking Lot - IV"
+      },
+      {
+          "id": 5,
+          "name": "Parking Lot - V"
+      }
+  ],
+  "parkingLot1": [
+    {
+      "id": 1,
+      "type": "2 Wheeler",
+      "total": 10,
+      "filled": [
+        {
+          "isFilled": true,
+          "number": "UP14 AX 9090"
+        },
+        {
+          "isFilled": true,
+          "number": "UP14 AX 8080"
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Hatchbacks",
+      "total": 10,
+      "filled": [
+        {
+          "isFilled": true,
+          "number": "UP14 AY 9090"
+        },
+        {
+          "isFilled": true,
+          "number": "UP14 AY 8080"
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "SUV",
+      "total": 10,
+      "filled": [
+        {
+          "isFilled": true,
+          "number": "UP14 AZ 9090"
+        },
+        {
+          "isFilled": true,
+          "number": "UP14 AZ 8080"
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        },
+        {
+          "isFilled": false,
+          "number": ""
+        }
+      ]
+    }
+  ],
+  "parkingLot2": [
+    {
+      "id": 1,
+      "type": "2 Wheeler",
+      "total": 10,
+      "filled": [false, true, false, false, true, false, false, false, true, true]
+    },
+    {
+      "id": 2,
+      "type": "Hatchbacks",
+      "total": 10,
+      "filled": [false, true, true, true, true, false, false, false, true, false]
+    },
+    {
+      "id": 3,
+      "type": "SUV",
+      "total": 10,
+      "filled": [true, false, false, true, true, false, true, false, true, false]
+    }
+  ]
+
+}
